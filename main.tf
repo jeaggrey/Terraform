@@ -10,3 +10,10 @@ terraform {
 provider "aws" {
   
 }
+resource "aws_instance" "joetechinstance" {
+  ami = ""
+  region = "us-east-1"
+  
+  
+  
+}
